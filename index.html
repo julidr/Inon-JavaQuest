@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  	<script src="http://jqueryvalidation.org/files/dist/jquery.validate.min.js"></script>
+  	<script src="http://jqueryvalidation.org/files/dist/additional-methods.min.js"></script>
+  	<script type="text/javascript" src="iu/js/java.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta charset="UTF-8">
+	<meta name="author" content="Juliana Diaz, Felix Moreno, Steven Puerto">
+
+	<title aling="left">INON</title>
+
+			<!-- Latest compiled and minified CSS -->
+			<link rel="stylesheet" href="iu/css/bootstrap.min.css">
+
+			<script src="iu/js/jquery-1.11.3.min.js"></script>
+
+			<!-- Latest compiled and minified JavaScript -->
+			<script src="iu/js/bootstrap.min.js" type="text/javascript"></script>
+
+	<link href="iu/image/shortcutIcon.png" rel="shortcut icon">
+
+	<link rel="stylesheet" type="text/css" href="iu/css/estilo.css">
+
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0; maximum-scale=4.0; user-scalable=yes">
+</head>
+	<body>
+			<div id="ContenedorPrincipal" name="ContenedorPrincipal" allign="center">
+				<div id="Barra1" name="Barra1">
+					<nav class="navbar navbar-inverse" id="navBar">
+					  <div class="container-fluid">
+					    <!-- Brand and toggle get grouped for better mobile display -->
+					    <div class="navbar-header">
+					      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					      </button>
+					      <a class="navbar-brand" id="banNav" href="index.html"><img id="logo" src="iu/image/inonBanner2.png"></a>
+					    </div>
+					    <!-- Collect the nav links, forms, and other content for toggling -->
+					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					      <ul class="nav navbar-nav" id="navUl">
+					        <li id="textNav">Busca un producto aqui:</li>
+					        <form class="navbar-form navbar-left" role="search">
+					        <div class="form-group">
+					          <input type="text" class="form-control" placeholder="Search">
+					        </div>
+					        <button type="submit" class="btn btn-default">Buscar</button>
+					      </form>
+					        <li class="dropdown">
+					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categorias <span class="caret"></span></a>
+					          <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
+								<li><a href="#">Tecnologia</a></li>
+								<li><a href="#">Ropa</a></li>
+								<li><a href="#">Hogar</a></li>
+								<li><a href="#">Escolar</a></li>
+								<li><a href="#">Videojuegos</a></li>
+							  </ul>
+					        </li>
+					        <li id="textNav">Tiendas:</li>
+					        <li class="dropdown">
+					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Todo <span class="caret"></span></a>
+					          <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
+								<li><a href="#">Tecnologia</a></li>
+								<li><a href="#">Ropa</a></li>
+								<li><a href="#">Hogar</a></li>
+								<li><a href="#">Escolar</a></li>
+								<li><a href="#">Videojuegos</a></li>
+							  </ul>
+							</li>
+					        <li><a href="#">Conocenos</a></li>
+					        <li>
+					        	<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" id="Rnav">Registrate</button>
+					        		<ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
+					        			<li><a href="UserN.php">Registro Usuarios</a></li>
+					        			<li><a href="UserE.php">Registro Usuarios Empresariales</a></li>
+					        		</ul>
+					        </li>
+					          <li class="dropdown">
+					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Iniciar Sesión<span class="caret"></span></a>
+					          <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
+								<li><a href="ISusuario.php">Usuarios</a></li>
+								<li><a href="ISempresa.php">Usuarios Empresarial</a></li>
+							  </ul>
+							</li>
+					      </ul>
+					    </div><!-- /.navbar-collapse -->
+					  </div><!-- /.container-fluid -->
+					</nav>
+				</div>
+				<div id="ImagenCen" name="ImagenCen">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+						<ol id="deslizadores "class="carousel-indicators">
+					      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					      <li data-target="#myCarousel" data-slide-to="1"></li>
+					      <li data-target="#myCarousel" data-slide-to="2"></li>
+					      <li data-target="#myCarousel" data-slide-to="3"></li>
+					    </ol>
+					    <div class="carousel-inner" role="listbox">
+					      <div class="item active">
+					        <img src="iu/image/prueba.png" alt="Chania">
+					      </div>
+					      <div class="item">
+					        <img src="iu/image/PRUEBA2.png" alt="Chania">
+					      </div>
+					    </div>
+					</div>
+				</div>
+				<br>
+				<div id="tiendas">
+					<b><p id="Anuncio">Hecha un vistazo a nuestras tiendas más Populares:</p> </b>
+					<hr>
+					<p id="tp">Tiendas Populares</p>
+					<div class="row">
+					  <div class="col-xs-6 col-md-3">
+					    <div id="cuadritos">
+					    </div>
+					  </div>
+					  <div class="col-xs-6 col-md-3">
+					    <div id="cuadritos">
+					    </div>
+					  </div>
+					  <div class="col-xs-6 col-md-3">
+					    <div id="cuadritos">
+					    </div>
+					  </div>
+					</div>
+				</div>
+				<br>
+				<div id="eventos">
+					<b><p id="Anuncio2">Hecha un vistazo a nuestros eventos más Populares:</p></b>
+					<hr>
+					<p id="tp">Eventos Populares</p>
+					<div class="row">
+					  <div class="col-xs-6 col-md-3">
+					    <div id="cuadritos">
+
+					    </div>
+					  </div>
+					  <div class="col-xs-6 col-md-3">
+					    <div id="cuadritos">
+	
+					    </div>
+					  </div>
+					  <div class="col-xs-6 col-md-3">
+					    <div id="cuadritos">
+					    </div>
+					  </div>
+					</div>
+				</div>
+				<br>
+				<div id="final">
+					<hr>
+					<br>
+					Todos los derechos Reservados ©
+				</div>
+			</div>
+	</body>
+</html>
